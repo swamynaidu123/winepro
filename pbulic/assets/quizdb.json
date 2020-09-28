@@ -1,0 +1,219 @@
+[
+    {
+        "id": 1,
+        "context": {
+            "question": "Tell us about your wine experience. ?",
+            "answers": [
+                "Beginner",
+                "I know what I like.",
+                "Pro"
+            ]
+        },
+        "next": {
+            "Beginner": 2,
+            "I know what I like.": 2,
+            "Pro":2
+        },
+        "template_type": 1
+    },
+    {
+        "id": 2,
+        "context": {
+            "question": "What wines would you like to try?",
+            "answers": [
+                "Sparkling",
+                "White",
+                "Rose",
+                "Red",
+                "Dessert"
+            ]
+        },
+        "next": {
+            "Sparkling": 3,
+            "White": 3,
+            "Rose": 3,
+            "Red": 3,
+            "Dessert": 3
+        },
+        "template_type": 2
+    },
+    {
+        "id": 3,
+        "context": {
+            "question": "Which fruit flavors do you like best?",
+            "answers": [
+                {
+                    "category": "Tropical Flavors",
+                    "options": [
+                        {
+                            "answer": "pineapple",
+                            "img_url": "../../assets/images/tropical-fruits/pineapple.jpg"
+                        },
+                        {
+                            "answer": "mango",
+                            "img_url": "../../assets/images/tropical-fruits/mango.jpg"
+                        },
+                        {
+                            "answer": "kiwi",
+                            "img_url": "../../assets/images/tropical-fruits/kiwi.jpg"
+                        },
+                        {
+                            "answer": "banana",
+                            "img_url": "../../assets/images/tropical-fruits/banana.jpg"
+                        }
+                    ]
+                },
+                {
+                    "category": "Citrus Flavors",
+                    "options": [
+                        {
+                            "answer": "lemon",
+                            "img_url": "../../assets/images/citrus-fruits/lemon.jpg"
+                        },
+                        {
+                            "answer": "lime",
+                            "img_url": "../../assets/images/citrus-fruits/lime.jpg"
+                        },
+                        {
+                            "answer": "grapefruit",
+                            "img_url": "../../assets/images/citrus-fruits/grape-fruit.jpg"
+                        },
+                        {
+                            "answer": "mandarinorange",
+                            "img_url": "../../assets/images/citrus-fruits/mandarin-orange.jpg"
+                        }
+                    ]
+                },
+                {
+                    "category": "Melon Flavors",
+                    "options": [
+                        {
+                            "answer": "cantaloupe",
+                            "img_url": "../../assets/images/melon/cantaloupe.jpg"
+                        },
+                        {
+                            "answer": "mango",
+                            "img_url": "../../assets/images/tropical-fruits/mango.jpg"
+                        },
+                        {
+                            "answer": "honeydew",
+                            "img_url": "../../assets/images/melon/honeydew.jpg"
+                        },
+                        {
+                            "answer": "watermelon",
+                            "img_url": "../../assets/images/melon/watermelon.jpg"
+                        }
+                    ]
+                },
+                {
+                    "category": "Berry Flavors",
+                    "options": [
+                        {
+                            "answer": "blackberry",
+                            "img_url": "../../assets/images/berries/blackberry.jpg"
+                        },
+                        {
+                            "answer": "blueberry",
+                            "img_url": "../../assets/images/berries/blueberry.jpg"
+                        },
+                        {
+                            "answer": "raspberry",
+                            "img_url": "../../assets/images/berries/raspberry.jpg"
+                        },
+                        {
+                            "answer": "straberry",
+                            "img_url": "../../assets/images/berries/blueberry.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        "next": {   
+            "pineapple": 4
+        },
+        "template_type": 3
+    },
+    {
+        "id": 4,
+        "context": {
+            "question": "What do you like about taste of lemon?",
+            "q_image": "../../assets/images/citrus-fruits/lemon.jpg",
+            "answers": [
+                "Bright Taste",
+                "Tart",
+                "Sweet",
+                "Enjoyable flavour"
+            ]
+        },
+        "next": {
+            "Bright Taste": 5,
+            "Tart": 5,
+            "Sweet": 5,
+            "Enjoyable flavour": 5
+        },
+        "template_type": 4
+    },
+    {
+        "id": 5,
+        "context": {
+            "question": "Which of these flavor collections do you like the best?",
+            "answers": [
+                {
+                    "type": "card_type_1",
+                    "title": "Warm Spices",
+                    "body": "Anise, Turmeric, Ginger, 5-Spice, Saffron, Cumin, Cardamom",
+                    "image":"",
+                    "answer": "Warm Spices"
+                },
+                {
+                    "type": "card_type_1",
+                    "title": "Baing Spices",
+                    "body": "Cinnamon, Clove, Allspice, Nutmeg, Vanilla",
+                    "image":"",
+                    "answer": "Baking Spices"
+                },
+                {
+                    "type": "card_type_1",
+                    "title": "Pepper",
+                    "body": "Black Peppercorn, White Peppercorn, Red Peppers",
+                    "image":"",
+                    "answer": "Pepper"
+                },
+                {
+                    "type": "card_type_1",
+                    "title": "Resinous Herbs",
+                    "body": "Oregano, Thyme, Rosemary, Bay Leaf, Sage, Basil",
+                    "image":"",
+                    "answer": "Resinous Herbs"
+                },
+                {
+                    "type": "card_type_1",
+                    "title": "Leafy Herbs",
+                    "body": "Scallions, Parsley, Chervil, Green Peppers, Asparagus, Dill",
+                    "image":"",
+                    "answer": "Leafy Herbs"
+                }
+            ]
+        },
+        "next": {
+            "Warm Spices": 6,
+            "Baing Spices":6,
+            "Pepper": 3,
+            "Resinous Herbs": 6,
+            "Leafy Herbs": 6
+        },
+        "template_type": 5
+    },
+    {
+        "id": 6,
+        "context": {
+            "question": "‘The fresh flowers I love best have a strong, heady perfume.’",
+            "answers": [
+                "agree",
+                "don't Know",
+                "disagree"
+            ]
+        },
+        "template_type": 6
+    }
+]

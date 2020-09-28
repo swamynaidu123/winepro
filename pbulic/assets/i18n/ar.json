@@ -1,0 +1,27 @@
+{
+    "btn.quiz" : "اختبار",
+    "btn.menu" : "قائمة طعام",
+    "btn.back" : "عودة",
+    "btn.next" : "التالى",
+    "interstitial.header.luk":"دعنا نعرف",
+    "interstitial.luk.quest.link" : "هل اعجبك",
+    "interstitial.luk.quest.text" : "اقتراحنا الأخير؟",
+    "interstitial.header.toppic" : "أفضل اختيار لك",
+    "interstitial.header.palletmatch" : "مباريات الحنك بالنسبة لك",
+    "interstitial.newuser.buildprofile.text" : "أنشئ ملفًا شخصيًا واحصل على توصيات رائعة!",
+    "interstitial.newuser.startquiz.btn.label" : "ابدأ الاختبار",
+    "interstitial.newuser.backtomenu.text" : "لا شكرا ، فقط القائمة",
+    "interstitial.newuser.acceptcookies.checkbox.label" : "قبول ملفات تعريف الارتباط",
+    "interstitial.newuser.usescooies.text": "يستخدم هذا الموقع ملفات تعريف الارتباط للحفاظ على ملفك الشخصي.",
+    "interstitial.newuser.usescooies.readmore.link.text" : "قراءة المزيد..",
+    "interstitial.newuser.viewpolicy.text" : "عرض سياسة الخصوصية",
+    "recommenddetails.header.toppic" : "أفضل اختيار لك",
+    "recommenddetails.header.bestserved" : "أفضل خدمة",
+    "recommenddetails.header.tasting" : "الملاحظات تذوق",
+    "recommenddetails.textforrecomm.text" : "نص التوصية",
+    "rating.header.raterecomm" : "قيم أحدث توصياتنا لك؟",
+    "rating.didnttry.txt" : "لم أحاول ذلك",
+    "recommend.header.text" : "سررت بمعرفتك!",
+    "recommend.subheader.text" : "نوصي بـ Italico's"
+
+}

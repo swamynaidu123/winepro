@@ -1,0 +1,27 @@
+{
+    "btn.quiz" : "EXAMEN",
+    "btn.menu" : "MENÚ",
+    "btn.back" : "ESPALDA",
+    "btn.next" : "SIGUIENTE",
+    "interstitial.header.luk":"Haznos saber",
+    "interstitial.luk.quest.link" : "Te ha gustado",
+    "interstitial.luk.quest.text" : "nuestra última sugerencia?",
+    "interstitial.header.toppic" : "La mejor elección para ti",
+    "interstitial.header.palletmatch" : "El paladar coincide para ti",
+    "interstitial.newuser.buildprofile.text" : "¡Crea un perfil y obtén excelentes recomendaciones!",
+    "interstitial.newuser.startquiz.btn.label" : "Iniciar prueba",
+    "interstitial.newuser.backtomenu.text" : "No gracias, solo el menú",
+    "interstitial.newuser.acceptcookies.checkbox.label" : "Acepto galletas",
+    "interstitial.newuser.usescooies.text": "Este sitio utiliza cookies para preservar su perfil de paladar personal.",
+    "interstitial.newuser.usescooies.readmore.link.text" : "Lee mas..",
+    "interstitial.newuser.viewpolicy.text" : "Observe nuestra política de privacidad",
+    "recommenddetails.header.toppic" : "La mejor elección para ti",
+    "recommenddetails.header.bestserved" : "Mejor servida",
+    "recommenddetails.header.tasting" : "Notas de sabor",
+    "recommenddetails.textforrecomm.text" : "Texto para la recomendación",
+    "rating.header.raterecomm" : "¿Califica nuestra recomendación más reciente para usted?",
+    "rating.didnttry.txt" : "No lo intenté",
+    "recommend.header.text" : "Encantado de conocerte!",
+    "recommend.subheader.text" : "Recomendamos Italico"
+
+}
